@@ -19,7 +19,7 @@ Now Windows Server 2016 does not allow modifying an existing virtual disk to cha
 
 
 <br /><br />
-[Microsoft has a wiki article that describes what each of a simple, mirror, and parity space provides](https://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx#What_are_the_best_uses_of_simple_mirror_and_parity_spaces)
+[Microsoft has a wiki article that describes what each of a simple, mirror, and parity space provides.](https://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx#What_are_the_best_uses_of_simple_mirror_and_parity_spaces)
 
 [Microsoft also has an article describing why you may want to choose any of the different types,](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-fault-tolerance) note that this article is for storage space direct, and we are using the non-direct storage pool option (as there is only 1 storage server on the network).
 
