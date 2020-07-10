@@ -8,7 +8,7 @@ Today we will be installing a Windows Server 2016 Nano Virtual Machine.
 Start by looking inside of your installation media, and you should see a folder named NanoServer. We'll start by extracting that to a working directory (I used F:\NanoServer\). Inside you'll find a readme which links to a Microsoft page describing what nano server is about.
 
 
-<br /><br /><br />
+<br /><br />
 
 After we have read through the documentation, we'll open up powershell, and import the cmdlets.
 
@@ -30,3 +30,7 @@ Once we launch the virtual machine, we will come to the nano server management c
 <br /><br /><br />
 
 Further reading on the microsoft docs page provided in the readme file will be of assistance for you, as the management console has very few configuration features you will need, such as installing the various server roles, or domain joining.
+
+<br />
+
+Note that there are quite a few less roles that are supported on nano server vs a full installation of Windows Server, either full gui, or core. The tradeoff being a lower memory and disk footprint.
