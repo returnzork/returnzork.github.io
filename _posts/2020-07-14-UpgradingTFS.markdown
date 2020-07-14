@@ -87,3 +87,7 @@ Click Configure. After a bit of time, the configuration will finish.
 
 On the last page, you will see an over information page about the upgrade, including the new DevOps server address you will point to. Depending on how you have your dns set, you could update the CNAME that pointed to the old server, to instead point to the new server.
 ![DevOps Server upgrade finished](/assets/images/2020-07-14-UpgradingTFS/14.png)
+
+
+<br /><br /><br />
+Note, the old and new server still must co-exist because the SQL server is still stored on the old server.
