@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {%- include analytics.html -%}
   {%- include head.html -%}
 
   <body>
-
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
@@ -12,20 +12,7 @@
         {{ content }}
       </div>
     </main>
-
     {%- include footer.html -%}
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171533341-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171533341-1');
-</script>
-
   </body>
 
 </html>
