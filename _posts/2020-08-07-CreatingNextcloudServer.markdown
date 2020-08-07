@@ -4,6 +4,12 @@ title: "Setting up a NextCloud server"
 date: 2020-08-07 16:20:00 PM -0700
 ---
 
+**Notes**
+
+This guide does not enable any ssl encryption. You must do this to secure your environment.
+
+<br /><br />
+
 Environment: Ubuntu Server 20.04 running on Hyper-V, docker has already been installed.
 
 <br />
