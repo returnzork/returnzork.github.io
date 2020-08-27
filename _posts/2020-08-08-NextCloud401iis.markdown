@@ -4,6 +4,11 @@ title: "NextCloud LDAP behind IIS Reverse Proxy"
 date: 2020-08-08 16:06:00
 ---
 
+EDIT 08-27-2020<br />
+The way that this is fixed may be better solved [as seen here](/2020/08/25/AdjustIISAuth.html)
+<br /><br /><br />
+
+
 [After setting up NextCloud,](/2020/08/07/CreatingNextcloudServer.html) I setup the LDAP app, and put a reverse proxy rule in IIS to forward to it.
 
 <br />
@@ -50,4 +55,9 @@ From here we can see that Basic Authentication and Windows Authentication are en
 Now, IIS won't let you enable both the Forms 302 authentication with the 401 challenge. I am not using either Basic or Windows in any of my projects, so I disabled those, enabling Forms Authentication in it's place.
 
 <br />
+
+<br />
 Depending on your environment, you may need to look into creating a new Application that will host the authentication and reverse proxy.
+
+EDIT 08-27-2020<br />
+[Take a look here to see how to do that.](/2020/08/25/AdjustIISAuth.html)
