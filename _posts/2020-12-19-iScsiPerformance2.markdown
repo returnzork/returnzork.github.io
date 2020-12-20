@@ -4,7 +4,7 @@ title: "Performance of iSCSI (Part 2)"
 date: 2020-12-19 15:40:00 -0700
 ---
 
-[Link to part #1](/2020/12/14/iScsiPerformance1.html) <br /><br />
+[Link to part #1](/2020/12/15/iScsiPerformance1.html) <br /><br />
 
 As stated in part #1 of this post, I discussed some ways to improve performance. The way being tested today is using multiple network adapters for multichannel.
 
