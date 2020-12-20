@@ -42,6 +42,11 @@ After changing the different multipath io policies, we can see that we were able
 
 The drawback for Lowest Queue Depth was that it had lower random io performance compared to weighted paths. (1.48 vs 8.22) The interesting thing for the random io though, is how we were able to receive higher read performance compared to running the benchmark on the server itself. (0.4 on server vs highest of 8.2 on client) This may be due to how the fully allocated (not setup as a dynamically expanding disk) vhd's are allocated compared with the benchmark on the server's vdisk itself.
 
+<br />
+!Update!<br />
+The increased random io is due to the fact that my storage pool decided to retire one of my harddrives and replaced it with an ssd
+<br /><br />
+
 After looking at these benchmarks, for my use case I would most likely choose to use the Least Queue Depth policy, as it produced the highest sequential speeds, while still having acceptable random io performance.
 
 <br />
