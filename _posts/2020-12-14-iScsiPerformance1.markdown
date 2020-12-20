@@ -4,6 +4,8 @@ title: "Performance of iSCSI (Part 1)"
 date: 2020-12-14 17:00:00 -0700
 ---
 
+[Link to part #2](/2020/12/19/iScsiPerformance2.html)
+
 So I've been using an iSCSI drive on my PC from my Windows Server for about a month now, specifically for my Steam library.
 
 The server being Windows Server 2016, with a storage pool setup, and the client being Windows 10 Pro. This is the performance I get from it.
