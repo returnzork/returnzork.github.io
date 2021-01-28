@@ -18,7 +18,7 @@ title: Returnzork Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Returnzork's HomeLab Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://returnzork.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: returnktech
 github_username:  returnzork
 
