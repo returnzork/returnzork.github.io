@@ -2,6 +2,7 @@
 layout: post
 title: "Performance of iSCSI (Part 2)"
 date: 2020-12-19 15:40:00 -0700
+tags: ["Windows", "Windows Server", "iSCSI"]
 ---
 
 [Link to part #1](/2020/12/15/iScsiPerformance1.html) <br /><br />

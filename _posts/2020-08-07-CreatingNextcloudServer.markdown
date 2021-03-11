@@ -2,6 +2,7 @@
 layout: post
 title: "Setting up a NextCloud server"
 date: 2020-08-07 16:20:00 PM -0700
+tags: ["Linux", "Nextcloud"]
 ---
 
 **Notes**

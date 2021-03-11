@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Modifying Storage Pool"
+tags: ["Windows Server", "storage pool"]
 ---
 
 

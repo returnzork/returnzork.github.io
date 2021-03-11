@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Migrating TFS 2017 to DevOps 2019"
+tags: ["Windows Server", "Team Foundation Server"]
 ---
 
 So I have an existing Team Foundation Server (2017) running in my network (which I use quite a bit more than github..) that I will be migrating to a new machine.

@@ -2,6 +2,7 @@
 layout: post
 title: "Analyzing BSOD"
 date: 2021-01-25 15:10:00 -0700
+tags: ["Windows", "BSOD"]
 ---
 
 **(This is part #1 of Analyzing a Windows BSOD, see [part #2](/2021/01/26/GraphicsFix.html) for how it was resolved)**

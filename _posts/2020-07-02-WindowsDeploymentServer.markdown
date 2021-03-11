@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setting up WDS for pxe install"
+tags: ["homelab", "pxe", "wds", "Windows Server"]
 ---
 
 Setting up and using Windows Deployment Services
