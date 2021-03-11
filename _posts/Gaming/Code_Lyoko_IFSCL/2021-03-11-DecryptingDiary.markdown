@@ -3,6 +3,7 @@ layout: post
 title: "[Code Lyoko IFSCL]Decrypting Franz Hopper's Diary"
 date: 2021-03-11 13:00:00 -0700
 categories: ["Gaming", "Code Lyoko IFSCL"]
+tags: ["Gaming", "Code Lyoko"]
 ---
 
 This guide has been written for version 4.1.3 [build 1169]
