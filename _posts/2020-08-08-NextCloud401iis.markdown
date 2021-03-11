@@ -2,7 +2,7 @@
 layout: post
 title: "NextCloud LDAP behind IIS Reverse Proxy"
 date: 2020-08-08 16:06:00
-tags: ["Windows Server", "IIS", "Nextcloud", "Linux"]
+tags: ["windows server", "iis", "nextcloud", "linux"]
 ---
 
 EDIT 08-27-2020<br />

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating secondary domain controller with Windows Server 2016 Server Core"
-tags: ["homelab", "domain", "Windows Server"]
+tags: ["homelab", "domain", "windows server"]
 ---
 
 Today, while changing a harddrive in my domain controller, I came across an issue my network has: as theres only one domain controller, while at my workstation, I was no longer able to RDP into the other server!

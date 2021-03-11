@@ -2,7 +2,7 @@
 layout: post
 title: "Fixing GPU Driver BSOD"
 date: 2021-01-26 16:10:00 -0700
-tags: ["Windows", "BSOD"]
+tags: ["windows", "bsod"]
 ---
 **(this is part #2 of analyzing a Windows BSOD, see [part #1](/2021/01/25/BlueScreen.html))**
 

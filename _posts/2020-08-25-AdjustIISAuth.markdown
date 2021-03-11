@@ -2,6 +2,7 @@
 layout: post
 title: "Adjusting IIS to allow both Windows Authentication and Form Authentication"
 date: 2020-08-25 14:40:00
+tags: ["windows server", "iis", "nextcloud"]
 ---
 
 [As per the previous article on NextCloud behind an IIS reverse proxy,](/2020/08/08/NextCloud401iis.html) we found that we were getting a 401 error when using the iOS application.

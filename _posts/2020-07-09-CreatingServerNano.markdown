@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating 2016 Nano VM"
-tags: ["Windows Server"]
+tags: ["windows server"]
 ---
 
 Today we will be installing a Windows Server 2016 Nano Virtual Machine.

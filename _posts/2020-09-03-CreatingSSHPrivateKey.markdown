@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up SSH public private keys to login"
 date: 2020-09-03 14:55:00
-tags: ["Linux"]
+tags: ["linux"]
 ---
 
 In my environment, I have a few different Ubuntu Server's running, and I connect to each of them through SSH to them on Windows Subsystem for Linux.
