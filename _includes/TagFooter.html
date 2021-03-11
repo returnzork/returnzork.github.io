@@ -10,6 +10,7 @@
       <li><a href="/tag/#{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}</a> - {{ posts | size }} posts total</li>
     {% endif %}
   {% endfor %}
+  <a href="{% link tag.markdown %}">View all tags</a>
 {% endif %}
 </ul>
 </html>
