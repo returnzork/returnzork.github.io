@@ -33,7 +33,7 @@ As for the switch, I don't have much to say about it (which is good!), as it fun
 
 As for the setup and configuration, I did have a bit of trouble getting the access points and switch to get adopted with the controller software. For the switch you are unable to ssh into the device to tell it where to connect to the controller, so I used the dd-wrt router to set a dhcp option for it to connect. The access points were easier, I ssh'd into the first one and told it where the controller was, and it became adopted. The second AP was setup after the switch, and it got picked up in the controller interface with no issue. That could be due to the dhcp option lingering, or that the switch was able to inform that AP where the controller was (I also set in the controller settings the "Controller Hostname/IP" which may have helped out).
 
-[The post I did detailing a bit more in depth about the setup process can be seen here.](/2021/03/27/UbiquitiControllerAdoption.html)
+[The post I did detailing a bit more in depth about the setup process can be seen here.](/2021/03/28/UbiquitiControllerAdoption.html)
 
 <br /><br />
 
