@@ -5,7 +5,7 @@ date: 2021-09-05 15:05:00 -0700
 tags: ["windows server", "storage", "backups"]
 ---
 
-[As mentioned in my previous post,](/2021/09/02/CheckYourBackups.html) I am in the process of working on, and getting my backup solution setup.
+[As mentioned in my previous post,](/2021/09/03/CheckYourBackups.html) I am in the process of working on, and getting my backup solution setup.
 
 I am using Windows Storage Spaces, combined with Windows Server Backup for my storage and backup solution.
 
