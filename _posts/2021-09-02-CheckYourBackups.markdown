@@ -2,7 +2,7 @@
 layout: post
 title: "Check Your Backups!"
 date: 2021-09-02 20:50:00 -0700
-tags: ["windows server", "storage"]
+tags: ["windows server", "storage", "backups"]
 ---
 
 Just a reminder to check your backups!
