@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Mac Pro 4,1 impressions"
+date: 2022-03-22 21:10:00 -0700
+tags: ["mac"]
+---
+
+This is a post about an older Mac Pro 4,1 (early 2009 - also known as a cheese grater, or cMP) and my impressions about it. It's an older system, that uses normally a Nehalem processor with DDR3 memory.
+
+I picked it up with a single Intel Xeon X5680 and 32GB of ram.
+
+Now, that processor isn't a Nehalem chip, it's actually Westmere. There's some interesting things about some of the older Mac Pro's, regarding the both 1,1 and 2,1 as well as the 4,1 and 5,1. And that is, you can flash the newer firmware onto the older logic board. That allows a 1,1 to use Clovertown instead  of strictly Woodcrest chips, and the 4,1 to run Westmere instead of strictly Nehalem chips.
+
+The Mac Pro 4,1 that I got, came flashed with the 5,1 firmware already, which allowed for that X5680 to work.
+
+Unfortunately, the logic board did have an issue - it had a damaged backplane interconnect on the logic board. So before it could even be used, the logic board had to be replaced. I got the replacement board a couple days later, and after installing it, the machine booted to the normal grey screen.
+
+[![Damaged pins on logic board](/assets/images/2022-03-22-MacPro41/DamagedCPUpins.jpg){: width="300" }](/assets/images/2022-03-22-MacPro41/DamagedCPUpins.jpg)
+
+You can see a ripped out pin in the middle section, row 3 column 5, as well as bent pins row 2 column 6 and row 3 column 8.
+<br /><br />
+
+This model has four hotswap SATA (potentially SAS) ports, with two additional ports for optical drives. I installed a 240GB SSD (note that the screws on the hotswap tray do not fit in the SSD mounting holes), and went about installing Mac OSX.
+
+<br /><br />
+
+I have not had much time using MacOSX, but when I last worked on a 2008 MBP, I made an El Capitan install flash drive that I never wiped.
+
+<br />
+
+So I started by installing El Capitan, which is the officially supported maximum version. As this computer has the 5,1 firmware and processor, I was able to upgrade that directly to 10.13 High Sierra. If I were to install a metal compatible graphics card, it could be upgraded to 10.14 Mojave. But, it has a ATI Radeon 4870. <br /><br />(Interesting to see an ATI card - seeing as they have been solely marketed as AMD video cards for over a decade now.)
+
+Upgrading this 4870 to something much more modern, isn't something I plan on doing with this machine - as it would be around the same price to purchase the video card, as it would be to purchase a few years newer system.
+
+<br /><br />
+
+So, why did I get this machine?
+
+~~*Because I collect computers*~~
+
+Because I am looking at iOS development, which requires a Mac OS system. Unfortunately for me, iOS 14 and Xcode 12 use a new encryption method when communicating with each other, of which Xcode 12 requires a minimum of Catalina 10.15.5, which I cannot install.
+
+So, it can be potentially be used for my older iPhone running iOS 7, or I could use a virtual machine software such as Parallels or VMware Fusion. I did install the trial of Parallels Desktop 17, which did successfully install a newer version of MacOS and Xcode, which I was then able to use to put a test application onto my phone. So not all hope is lost!
+
+<br /><br />
+
+Mac OSX:
+
+As stated above, I have not had much time in the past to work with Mac OSX to get a true deep feel for it. But, someone I used to work with, worked in a heavy Mac industry (live music, as a DJ), so some of it I learned as needed. Nobody wants to be at an event where the DJ's computer malfunctions!
+
+From what I can remember, the biggest issue that I ever had to troubleshoot, was helping another DJ setup his Mevo camera with software called MistController. For whatever reason, the unblock security option in the Apple System Preferences kept dissapearing when we ran the software. So I had to guide him on how to go about that (which was running each component of the software, unblocking it, and then after each individual component was unblocked, running the main app).
+<br /><br />
+Luckily, I have a good understanding of Linux distributions, which if nothing else helps with some of the fundamentals regarding the terminal app, and configuration that way.
+
+<br />
+
+Final Thoughts:
+
+<br />
+
+This computer is older. And also not supported. But it can double as a space heater if needed! (note: I didn't need a space heater before - it has a 130w TDP, it easily heats my area up a couple of degrees).
+
+Will it be useful? Partially: it will be great to be able to dabble with iPhone application development. But beyond that, it uses way too much electricity to run all the time, or to add to my existing server setup.
+
+Comparing that to my desktop, which is similar in specs but much newer: this X5680 with 6 cores and 12 threads has a Passmark score of 6812. My Ryzen 5 2600x has a passmark of 14056 - more than double, while having only a 95w TDP.
+
+<br /><br />
+
+There's a certain edge that older hardware can get - but at some point there is a big tradeoff between electricity, heat, and performance that needs to be calculated. In my eyes: this system sits where you may want to consider going for a newer machine, even if it has less expandability options.
+
+
