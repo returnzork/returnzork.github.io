@@ -5,6 +5,8 @@ date: 2022-06-22 19:10:00 -0700
 tags: ["homelab", "storage", "windows", "server"]
 ---
 
+[Next post, Networking](/2022/08/16/State-Of-Homelab-Part2.html)
+
 Quick Links:
 
 - [Current Hardware](#current)
