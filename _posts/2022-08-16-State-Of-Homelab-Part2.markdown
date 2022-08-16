@@ -5,7 +5,8 @@ date: 2022-08-16 16:25:00 -0700
 tags: ["homelab", "networking"]
 ---
 
-[Previous Post, Computer Hardware](/2022/06/22/State-Of-Homelab-Part1.html)
+[Previous Post, Computer Hardware]({% post_url 2022-06-22-State-Of-Homelab-Part1 %})
+
 
 Quick Links:
 
@@ -24,7 +25,7 @@ My current networking hardware is not very complex. It consists of:
 * 5 port Unfi-Flex-Mini gigabit switch
 * 2x Unifi AP-AC Lite wifi access points
 
-[Impressions of Ubiquiti Hardware](/2021/04/08/UbiqutiFirstImpressions.html)
+[Impressions of Ubiquiti Hardware]({% post_url 2021-04-08-UbiqutiFirstImpressions %})
 
 <a name="upgrades" />
 # **2. Future Upgrades**
