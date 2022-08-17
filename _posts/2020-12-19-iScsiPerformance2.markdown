@@ -5,7 +5,7 @@ date: 2020-12-19 15:40:00 -0700
 tags: ["windows", "windows server", "iscsi"]
 ---
 
-[Link to part #1](/2020/12/15/iScsiPerformance1.html) <br /><br />
+[Link to part #1]({% post_url 2020-12-14-iScsiPerformance1 %}) <br /><br />
 
 As stated in part #1 of this post, I discussed some ways to improve performance. The way being tested today is using multiple network adapters for multichannel.
 

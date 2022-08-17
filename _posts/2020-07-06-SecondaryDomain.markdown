@@ -13,7 +13,7 @@ The primary - currently the only - domain controller is running on Windows Serve
 Make sure that your domain controller is running!
 
 
-Start by installing the server as normal (I installed it with [WDS and PXE boot](/2020/07/02/WindowsDeploymentServer.html)) and then join the domain.
+Start by installing the server as normal (I installed it with [WDS and PXE boot]({% post_url 2020-07-02-WindowsDeploymentServer %})) and then join the domain.
 
 Next, add our new server to server manager so we can configure it, and then install the Active Directory Domain Services role. Once that is installed, you will need to run the "Promote This Server To A Domain Controller" wizard.
 

@@ -5,7 +5,7 @@ date: 2020-12-14 17:00:00 -0700
 tags: ["windows", "windows server", "iscsi"]
 ---
 
-[Link to part #2](/2020/12/19/iScsiPerformance2.html)
+[Link to part #2]({% post_url 2020-12-19-iScsiPerformance2 %})
 
 So I've been using an iSCSI drive on my PC from my Windows Server for about a month now, specifically for my Steam library.
 

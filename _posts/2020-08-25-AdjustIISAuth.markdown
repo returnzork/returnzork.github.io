@@ -5,7 +5,7 @@ date: 2020-08-25 14:40:00
 tags: ["windows server", "iis", "nextcloud"]
 ---
 
-[As per the previous article on NextCloud behind an IIS reverse proxy,](/2020/08/08/NextCloud401iis.html) we found that we were getting a 401 error when using the iOS application.
+[As per the previous article on NextCloud behind an IIS reverse proxy,]({% post_url 2020-08-08-NextCloud401iis %}) we found that we were getting a 401 error when using the iOS application.
 
 The way we fixed it was to disable both the Windows and Basic authentication in IIS. Now while that does work, what if are actively using those authentication methods? Form authentication is incompatible when either of those are enabled.
 

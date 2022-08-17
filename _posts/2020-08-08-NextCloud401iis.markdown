@@ -6,11 +6,11 @@ tags: ["windows server", "iis", "nextcloud", "linux"]
 ---
 
 EDIT 08-27-2020<br />
-The way that this is fixed may be better solved [as seen here](/2020/08/25/AdjustIISAuth.html)
+The way that this is fixed may be better solved [as seen here]({% post_url 2020-08-25-AdjustIISAuth %})
 <br /><br /><br />
 
 
-[After setting up NextCloud,](/2020/08/07/CreatingNextcloudServer.html) I setup the LDAP app, and put a reverse proxy rule in IIS to forward to it.
+[After setting up NextCloud,]({% post_url 2020-08-07-CreatingNextcloudServer %}) I setup the LDAP app, and put a reverse proxy rule in IIS to forward to it.
 
 <br />
 Everything worked fine for the webbrowser. But when I tried to connect the iPhone app, I kept getting a 401 error.
@@ -61,4 +61,4 @@ Now, IIS won't let you enable both the Forms 302 authentication with the 401 cha
 Depending on your environment, you may need to look into creating a new Application that will host the authentication and reverse proxy.
 
 EDIT 08-27-2020<br />
-[Take a look here to see how to do that.](/2020/08/25/AdjustIISAuth.html)
+[Take a look here to see how to do that.]({% post_url 2020-08-25-AdjustIISAuth %})

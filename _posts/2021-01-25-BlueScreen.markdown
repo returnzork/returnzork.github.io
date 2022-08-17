@@ -5,7 +5,7 @@ date: 2021-01-25 15:10:00 -0700
 tags: ["windows", "bsod"]
 ---
 
-**(This is part #1 of Analyzing a Windows BSOD, see [part #2](/2021/01/26/GraphicsFix.html) for how it was resolved)**
+**(This is part #1 of Analyzing a Windows BSOD, see [part #2]({% post_url 2021-01-26-GraphicsFix %}) for how it was resolved)**
 
 So I recently purchased a Lenovo ThinkPad W530 laptop from a thrift store. It has an Intel Core i7-3610QM, 8GB ram, a 300GB hdd, and a discrete NVidia Quadro k1000m.
 
@@ -80,4 +80,4 @@ So there is some issue with with the dxgkrnl.sys, which happens to be the Direct
 <br />
 This makes sense, as it is a brand new install of Windows 10, it is using the generic drivers that are included. As this laptop has a feature known as "Nvidia Optimus" which allows using both the Intel HD Graphics 4000 chip as well as the Nvidia Quadro k1000m.
 <br />
-So now that we know that there is an issue with the graphics driver the question is, [how do we fix it?](/2021/01/26/GraphicsFix.html)
+So now that we know that there is an issue with the graphics driver the question is, [how do we fix it?]({% post_url 2021-01-26-GraphicsFix %})

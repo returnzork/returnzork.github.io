@@ -93,4 +93,4 @@ On the last page, you will see an over information page about the upgrade, inclu
 <br /><br /><br />
 Note, the old and new server still must co-exist because the SQL server is still stored on the old server.
 <br /><br />
-[You can find the next post detailing how to migrate that SQL database to a new server here](/2020/07/14/MigrateTFSDatabase.html)
+[You can find the next post detailing how to migrate that SQL database to a new server here]({% post_url 2020-07-14-MigrateTFSDatabase %})

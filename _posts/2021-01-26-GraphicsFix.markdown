@@ -4,7 +4,7 @@ title: "Fixing GPU Driver BSOD"
 date: 2021-01-26 16:10:00 -0700
 tags: ["windows", "bsod"]
 ---
-**(this is part #2 of analyzing a Windows BSOD, see [part #1](/2021/01/25/BlueScreen.html))**
+**(this is part #2 of analyzing a Windows BSOD, see [part #1]({% post_url 2021-01-25-BlueScreen %}))**
 
 I started by... putting the hard drive back into the laptop first! And then launching the system setup utility with the F1 key.
 

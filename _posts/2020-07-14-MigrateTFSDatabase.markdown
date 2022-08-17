@@ -4,7 +4,7 @@ title: "Migrate existing TFS (DevOps) database to new server"
 tags: ["windows server", "team foundation server"]
 ---
 
-[As mentioned at the end of the previous entry,](/2020/07/14/UpgradingTFS.html) the new DevOps server requires the old one to be online because that is where the SQL database is stored.
+[As mentioned at the end of the previous entry,]({% post_url 2020-07-14-UpgradingTFS %}) the new DevOps server requires the old one to be online because that is where the SQL database is stored.
 
 Now, if we will be keeping SQL on that server, we do not have to change anything, and we can continue with our environment as is. But, if we want it to be self contained (SQL database stored on the DevOps server), we will need to migrate that over as well.
 <br /><br /><br />
